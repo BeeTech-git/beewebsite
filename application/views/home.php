@@ -108,7 +108,7 @@
                                     	<span>
                                             <span>BEE DESIGN. BEE CREATIVE. BEE SEEN.</span>
                                             <br class="destroy">
-                                            At Bee Tech, we’re a creative digital studio in Kerala, blending ,branding, strategy, web design,
+                                            We’re a creative digital studio in Kerala, blending ,branding, strategy, web design,
                                              and development with smart data analytics. 
                                              We build custom websites, scalable web apps, and strong visual identities that perform. 
                                              Whether you're a startup or growing brand, we make sure you're seen, ranked, and remembered — <br>
