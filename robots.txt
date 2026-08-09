@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Disallow: /cpanel/
+Disallow: /temp/
+Disallow: /cgi-bin/
+
+Allow: /
+
+Sitemap: https://www.beetechnology.in/sitemap.xml
+Host: www.beetechnology.in

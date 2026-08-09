@@ -1,0 +1,89 @@
+/* Extracted CSS used in index.html */
+body, html {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size:16px;
+  height:100%;
+  width:100%;
+  color:#444;
+  background-color:#fff;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+#hero, #main, #logo, #menu-burger, #itemsWrapper, #clapat-page-content {
+  position: relative;
+}
+
+.primary-font-title {
+  font-family: 'Six Caps', sans-serif;
+  text-transform: lowercase;
+  font-weight: 500;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.button-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-text span:hover,
+a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+#burger-wrapper span {
+  display: block;
+  height: 2px;
+  background: #000;
+  margin: 4px 0;
+}
+
+.hero-title span {
+  font-size: calc(1rem + 4vw);
+}
+
+.grid__item-img,
+.item-image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+.overlapping-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.content-row {
+  padding: 80px;
+}
+
+.button-box {
+  margin-top: 40px;
+}
+
+.scroll-down {
+  cursor: pointer;
+}
+
+.preloader-wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #000;
+  z-index: 9999;
+}
+
+.percentage-wrapper {
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+}
