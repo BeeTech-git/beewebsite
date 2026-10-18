@@ -22,7 +22,7 @@
     <link href="<?php echo base_url(); ?>beetech/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo base_url(); ?>beetech/fonts/poppins.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>beetech/fonts/sixcaps.css">
-    <?php require_once 'float-css.php'; ?>
+    <?php require_once(APPPATH . 'views/float-css.php'); ?>
 
     <script type="application/ld+json">
         {
@@ -54,7 +54,13 @@
         }
     </script>
 
-   
+   <style>
+       /* Hide the Elfsight attribution link */
+        a[href*="elfsight.com/google-reviews-widget"] {
+            display: none !important;
+            visibility: hidden !important;
+        }
+   </style>
 </head>
 
 
@@ -395,6 +401,10 @@
 </div>
 <!-- END ABOUT PAGE CTA -->
 
+<!-- Elfsight Google Reviews | Untitled Google Reviews -->
+<script src="https://elfsightcdn.com/platform.js" async></script>
+<div class="elfsight-app-77b7162e-be59-451f-b091-751653c99980" data-elfsight-app-lazy></div>
+
 
 
                             
@@ -481,6 +491,6 @@
     
     <script src="<?php echo base_url(); ?>beetech/js/scripts.js"></script>
 
-    <?php require_once 'float-butt.php'; ?>
+    <?php require_once(APPPATH . 'views/float-butt.php'); ?>
 
 </body></html>

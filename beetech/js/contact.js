@@ -44,19 +44,34 @@ $(document).ready(function () {
         // Ajax submit
         $.ajax({
             type: 'POST',
-            url: 'contact.php',
-            data: {
-                name: name,
-                email: email,
-                comments: comments,
-                verify: verify
-            },
+            url: $form.attr('action'),
+            data: $form.serialize(),
+            dataType: 'json',
             success: function (response) {
-                $('#message').html('<div class="success">' + response + '</div>');
-                $('#contactform')[0].reset();
+                if (response.status === 'success') {
+                    $('#message').html(
+                        $('<div class="success"></div>')
+                            .text(response.message)
+                    );
+                    $form[0].reset();
+                } else {
+                    $('#message').html(
+                        $('<div class="error"></div>')
+                            .text(response.message || 'Unable to send your message.')
+                    );
+                }
             },
-            error: function () {
-                $('#message').html('<div class="error">There was a problem sending your message. Please try again.</div>');
+
+            error: function (xhr) {
+                console.error('Contact form error:', xhr.responseText);
+
+                $('#message').html(
+                    '<div class="error">There was a problem sending your message. Please try again.</div>'
+                );
+            },
+
+            complete: function () {
+                $button.prop('disabled', false);
             }
         });
     });

@@ -25,7 +25,7 @@
     <link href="<?php echo base_url(); ?>beetech/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo base_url(); ?>beetech/fonts/poppins.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>beetech/fonts/sixcaps.css">
-    <?php require_once 'float-css.php'; ?>
+    <?php require_once(APPPATH . 'views/float-css.php'); ?>
 
     <script type="application/ld+json">
     {
@@ -135,7 +135,7 @@
                                 
                                     <div id="message"></div>
                                 
-                                    <form method="post" action="contact.php" name="contactform" id="contactform">                             
+                                    <form method="post" action="<?= base_url('contact/sendmeform'); ?>" name="contactform" id="contactform">                             
                                         <div class="name-box">        
                                             <input name="name" type="text" id="name" size="30" value="" placeholder="What's Your Name"><label class="input_label"></label>
                                         </div>                                                        
@@ -254,7 +254,8 @@
     <script src="<?php echo base_url(); ?>beetech/js/common.js"></script>
     
     <script src="<?php echo base_url(); ?>beetech/js/scripts.js"></script>
+    <script src="<?php echo base_url(); ?>beetech/js/contact.js"></script>
 
-    <?php require_once 'float-butt.php'; ?>
+    <?php require_once(APPPATH . 'views/float-butt.php'); ?>
 
 </body></html>

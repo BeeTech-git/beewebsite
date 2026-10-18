@@ -67,7 +67,7 @@
                                     </p>
 
                                     <div id="newsletter-formular">
-                                        <form action="" method="post" id="newsletter-form">
+                                        <form action="<?= site_url('contact/subscribe'); ?>" method="post" id="newsletter-form">
 
                                             <div class="newsletter-input-wrap">
                                                 <input

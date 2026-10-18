@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="<?php echo base_url(); ?>beetech/fonts/poppins.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>beetech/fonts/sixcaps.css">
     <link href="<?php echo base_url(); ?>beetech/css/home.css" rel="stylesheet">
-    <?php require_once 'float-css.php'; ?>
+    <?php require_once(APPPATH . 'views/float-css.php'); ?>
 
     <script type="application/ld+json">
         {
@@ -53,11 +53,10 @@
           ]
         }
     </script>
-
-
    
 </head>
 
+<?php require_once(APPPATH . 'views/google_analytics.php'); ?>
 
 <body class="hidden hidden-ball smooth-scroll rounded-borders" data-primary-color="#8c6144">
 
@@ -406,6 +405,6 @@
     
     <script src="<?php echo base_url(); ?>beetech/js/scripts.js?v=1.1"></script>
 
-    <?php require_once 'float-butt.php'; ?>
+    <?php require_once(APPPATH . 'views/float-butt.php'); ?>
 
 </body></html>
