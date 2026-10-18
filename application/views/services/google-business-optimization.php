@@ -6,12 +6,12 @@
     <meta name="description" content="Improve local visibility with Google Business Profile optimization by Bee Technology in Kottayam, Kerala. Strengthen your profile, business information and local search presence.">
     <meta name="robots" content="index, follow">
     <meta name="author" content="Bee Technology">
-    <link rel="canonical" href="https://www.beetechnology.in/services/google-business-profile-optimization">
+    <link rel="canonical" href="https://www.beetechnology.in/services/google-business-optimization">
 
     <meta property="og:title" content="Google Business Profile Optimization | Bee Technology">
     <meta property="og:description" content="Help local customers discover your business with a complete, accurate and well-maintained Google Business Profile.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.beetechnology.in/services/google-business-profile-optimization">
+    <meta property="og:url" content="https://www.beetechnology.in/services/google-business-optimization">
     <meta property="og:image" content="https://www.beetechnology.in/beetech/images/logo.png">
 
     <link rel="icon" type="image/ico" href="<?php echo base_url(); ?>beetech/images/favicon.ico">
@@ -27,7 +27,7 @@
       "@type": "Service",
       "name": "Google Business Profile Optimization",
       "serviceType": "Google Business Profile Optimization and Local SEO",
-      "url": "https://www.beetechnology.in/services/google-business-profile-optimization",
+      "url": "https://www.beetechnology.in/services/google-business-optimization",
       "description": "Google Business Profile optimization to help businesses maintain accurate profile information, improve local search readiness and make their services easier to discover.",
       "provider": {
         "@type": "Organization",
@@ -94,8 +94,8 @@
                                     </div>
                                     <div class="scrolling-element right">
                                         <figure class="has-animation">
-                                            <a href="<?php echo base_url(); ?>beetech/images/services/web-design.webp" class="image-link">
-                                                <img src="<?php echo base_url(); ?>beetech/images/services/web-design.webp" alt="Google Business Profile optimization for local businesses">
+                                            <a href="<?php echo base_url(); ?>beetech/images/services/google-business-optimization.webp" class="image-link">
+                                                <img src="<?php echo base_url(); ?>beetech/images/services/google-business-optimization.webp" alt="Google Business Profile optimization for local businesses">
                                             </a>
                                         </figure>
                                     </div>

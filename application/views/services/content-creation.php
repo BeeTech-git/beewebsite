@@ -97,8 +97,8 @@
                                     </div>
                                     <div class="scrolling-element right">
                                         <figure class="has-animation">
-                                            <a href="<?php echo base_url(); ?>beetech/images/services/web-design.webp" class="image-link">
-                                                <img src="<?php echo base_url(); ?>beetech/images/services/web-design.webp" alt="Content creation for websites and digital marketing">
+                                            <a href="<?php echo base_url(); ?>beetech/images/services/content-creation.webp" class="image-link">
+                                                <img src="<?php echo base_url(); ?>beetech/images/services/content-creation.webp" alt="Content creation for websites and digital marketing">
                                             </a>
                                         </figure>
                                     </div>

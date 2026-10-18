@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Branding Services in Kerala | Bee Technology</title>
+    <title>Blogs | Bee Technology</title>
     <meta name="description" content="Build a recognisable and consistent brand with Bee Technology's branding services in Kerala. Develop your brand identity, messaging and visual direction to communicate your business clearly.">
     <meta name="robots" content="index, follow">
     <meta name="author" content="Bee Technology">
@@ -97,8 +97,8 @@
                                     </div>
                                     <div class="scrolling-element right">
                                         <figure class="has-animation">
-                                            <a href="<?php echo base_url(); ?>beetech/images/services/web-design.webp" class="image-link">
-                                                <img src="<?php echo base_url(); ?>beetech/images/services/web-design.webp" alt="Brand identity and visual branding for businesses">
+                                            <a href="<?php echo base_url(); ?>beetech/images/services/branding.webp" class="image-link">
+                                                <img src="<?php echo base_url(); ?>beetech/images/services/branding.webp" alt="Brand identity and visual branding for businesses">
                                             </a>
                                         </figure>
                                     </div>

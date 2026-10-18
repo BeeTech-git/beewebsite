@@ -148,7 +148,7 @@
                                     
                                     <div class="scrolling-element right">
                                         <figure class="has-animation">
-                                            <a href="<?php echo base_url(); ?>beetech/images/services/web-design.webp" class="image-link"><img src="<?php echo base_url(); ?>beetech/images/services/web-design.webp" alt="web-design"></a>
+                                            <a href="<?php echo base_url(); ?>beetech/images/services/web-applications.webp" class="image-link"><img src="<?php echo base_url(); ?>beetech/images/services/web-applications.webp" alt="web-design"></a>
                                         </figure>
                                     </div>
                                 </div>
