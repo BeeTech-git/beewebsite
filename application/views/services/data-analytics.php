@@ -1,9 +1,9 @@
 <!DOCTYPE html><html lang="en">
     
 <head>
-    <title>Data Analytics Services | Business Intelligence in India, Kerala & Dubai</title>
+    <title>Data Analytics Services in Kerala | Bee Technology</title>
     
-    <meta name="description" content="Unlock insights and make smarter decisions with Bee Tech's data analytics services in India, Kerala, and Dubai. From performance tracking to predictive analytics, we turn data into growth.">
+    <meta name="description" content="Turn business data into actionable insights with Bee Technology. Explore data analytics, business dashboards, reporting and performance analysis for businesses in Kerala.">
     
     <meta name="keywords" content="data analytics India, business intelligence Kerala, analytics Dubai, performance tracking UAE, data-driven marketing Kottayam, predictive analytics India, Bee Tech data services, dashboard analytics Dubai">
     
@@ -11,8 +11,8 @@
     <meta name="author" content="Bee Tech">
     
     <!-- Open Graph -->
-    <meta property="og:title" content="Data Analytics Services | Bee Tech – India, Kerala & Dubai">
-    <meta property="og:description" content="Bee Tech empowers businesses in Kerala, Dubai, and across India with data analytics and business intelligence services that convert insights into results.">
+    <meta property="og:title" content="Data & Business Analytics | Bee Technology">
+    <meta property="og:description" content="Understand business performance through organised data, meaningful reports and analytics-driven insights.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.beetechnology.in/services/data-analytics">
     <meta property="og:image" content="https://www.beetechnology.in/beetech/images/logo.png">
@@ -25,31 +25,23 @@
     <link href="<?php echo base_url(); ?>beetech/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo base_url(); ?>beetech/fonts/poppins.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>beetech/fonts/sixcaps.css">
-    <?php require_once 'float-css.php'; ?>
+    <?php require_once(APPPATH . 'views/float-css.php'); ?>
 
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Service",
-      "serviceType": "Data Analytics & Business Intelligence",
+      "name": "Data and Business Analytics",
+      "serviceType": "Business Data Analytics and Reporting",
       "provider": {
         "@type": "Organization",
-        "name": "Bee Tech",
-        "url": "https://www.beetechnology.in",
-        "logo": "https://www.beetechnology.in/beetech/images/logo-white.png"
+        "name": "Bee Technology",
+        "url": "https://www.beetechnology.in"
       },
       "areaServed": [
         {
-          "@type": "Place",
-          "name": "Kottayam"
-        },
-        {
-          "@type": "Place",
-          "name": "Kerala"
-        },
-        {
-          "@type": "Place",
-          "name": "Dubai"
+          "@type": "AdministrativeArea",
+          "name": "Kerala, India"
         },
         {
           "@type": "Country",
@@ -60,13 +52,10 @@
           "name": "United Arab Emirates"
         }
       ],
-      "description": "Bee Tech offers advanced data analytics and business intelligence solutions to help businesses in Kerala, India, and Dubai make data-driven decisions, improve efficiency, and scale operations with confidence."
+      "description": "Business data analytics, reporting, dashboard development and performance insights to help organisations understand operations and make informed decisions."
     }
     </script>
 
-
-
-   
 </head>
 
 
@@ -115,13 +104,15 @@
                         <div id="hero-styles">
                             <div id="hero-caption" class="content-full-width parallax-scroll-caption text-align-center height-title">
                                 <div class="inner">                                    
-                                    <h1 class="hero-title caption-timeline primary-font-title"><span>Data Analytics</span></h1>
+                                    <h1 class="hero-title caption-timeline primary-font-title"><span>DATA & ANALYTICS</span></h1>
                                     <div class="hero-subtitle caption-timeline">
                                     	<span>
-                                            We’re a creative digital studio based in Kottayam, Kerala, helping businesses across <strong>India and Dubai</strong> unlock the power of data.
-                                            <br class="destroy">From web performance tracking to customer insights and sales forecasting, our data analytics solutions turn raw information into smart decisions.
-                                            <br>We help startups, SMEs, and enterprises identify trends, measure outcomes, and optimize performance — giving you the clarity to grow faster and smarter.
-                                            <br><strong>We don’t just analyze data. We bee-code your business intelligence.</strong>
+                                            Turn everyday business data into meaningful insights.
+                                            <br class="destroy">
+                                            We help businesses organise information, understand performance
+                                            and identify opportunities through reporting and analytics.
+                                            <br>
+                                            <strong>Better data. Clearer insights. Smarter decisions.</strong>
                                         </span>
 
                                     </div>                                   
@@ -155,9 +146,23 @@
                                 
                                 <div class="pinned-section">
                                     <div class="pinned-element left">
-                                        <h5 class="no-margins">Turn Data into Decisions</h5>
+                                        <h5 class="no-margins">
+                                            Make Your Business Data Work for You
+                                        </h5>
+
                                         <p>
-                                            At Bee Tech, we go beyond dashboards. Our data analytics services transform raw numbers into strategic insights — helping your business identify trends, uncover opportunities, and optimize performance. Whether you're tracking user behavior, sales funnels, or operational metrics, we build custom solutions that turn your data into actionable growth.
+                                            Every business generates valuable information through sales,
+                                            customer interactions, transactions and daily operations. However,
+                                            when this information is scattered across spreadsheets, documents
+                                            and disconnected systems, understanding the bigger picture becomes
+                                            difficult. At Bee Technology, we help businesses organise their
+                                            data and turn it into useful reports, dashboards and performance
+                                            insights. By making important information easier to access and
+                                            interpret, we help business owners understand what is happening,
+                                            identify patterns and make more informed decisions. Our approach
+                                            to data and business analytics focuses on transforming raw
+                                            information into practical knowledge that supports efficiency,
+                                            accountability and sustainable business growth.
                                         </p>
                                     </div>
                                     
@@ -169,7 +174,113 @@
                                 </div>
                                 
                             </div> 
-                            <!--/Row -->      
+                            <!--/Row -->    
+
+                            <!-- OUR WORK -->
+                            <div class="content-row full row_padding_top
+                                        row_padding_bottom row_padding_left
+                                        row_padding_right dark-section"
+                                 data-bgcolor="#0c0c0c">
+
+                                <div class="one_half">
+                                    <h3>Business Data Analysis</h3>
+                                    <p>
+                                        Business data becomes more valuable when it helps answer
+                                        meaningful questions. We help organise and analyse relevant
+                                        business information to identify patterns, understand
+                                        performance and highlight areas that need attention. This
+                                        gives business owners a clearer view of their operations
+                                        and supports decisions based on evidence rather than guesswork.
+                                    </p>
+                                </div>
+
+                                <div class="one_half last">
+                                    <h3>Custom Business Dashboards</h3>
+                                    <p>
+                                        Important business metrics should be easy to understand at a
+                                        glance. Custom dashboards can bring key figures, performance
+                                        indicators and operational summaries into one view. We focus
+                                        on presenting relevant information clearly so teams and
+                                        decision-makers can monitor progress without manually
+                                        reviewing multiple reports.
+                                    </p>
+                                </div>
+
+                                <div class="one_half">
+                                    <h3>Reporting and Performance Monitoring</h3>
+                                    <p>
+                                        Regular reporting helps businesses understand how their
+                                        operations are performing over time. We help structure reports
+                                        around relevant metrics, trends and business objectives.
+                                        Depending on your data sources and requirements, reporting
+                                        can help track sales, enquiries, transactions, expenses
+                                        and other important indicators.
+                                    </p>
+                                </div>
+
+                                <div class="one_half last">
+                                    <h3>Sales and Customer Insights</h3>
+                                    <p>
+                                        Understanding customers and sales activity can reveal
+                                        opportunities for improvement. By analysing available sales
+                                        records, enquiries and customer data, businesses can explore
+                                        purchasing patterns, identify high-performing products or
+                                        services and better understand customer behaviour. These
+                                        insights can support more informed sales and marketing decisions.
+                                    </p>
+                                </div>
+
+                                <div class="one_half">
+                                    <h3>Data Organisation and Integration</h3>
+                                    <p>
+                                        Scattered or inconsistent information makes analysis difficult.
+                                        We help businesses improve how their data is organised and,
+                                        where technically feasible, bring information from different
+                                        sources into a more consistent reporting process. Better
+                                        data organisation can reduce manual effort, improve visibility
+                                        and make information easier to use across the business.
+                                    </p>
+                                </div>
+
+                                <div class="one_half last">
+                                    <h3>Data-Driven Business Decisions</h3>
+                                    <p>
+                                        Analytics is most useful when insights lead to meaningful
+                                        action. We help businesses interpret relevant metrics and
+                                        identify areas for further investigation, improvement or growth.
+                                        By connecting business objectives with measurable indicators,
+                                        organisations can evaluate progress, recognise emerging trends
+                                        and make more informed strategic decisions.
+                                    </p>
+                                </div>
+
+                                <div class="clear"></div>
+
+                            </div>
+                            <!-- END OUR WORK -->   
+
+                            <div class="content-row row_padding_bottom row_padding_left row_padding_right text-align-center">
+
+                                <h2 class="primary-font-title">
+                                    Let's Turn Data Into Insights
+                                </h2>
+
+                                <div class="button-box">
+                                    <div class="clapat-button-wrap parallax-wrap hide-ball">
+                                        <div class="clapat-button parallax-element">
+                                            <div class="button-border outline rounded">
+                                                <a href="<?php echo base_url(); ?>contact"
+                                                   data-type="page-transition">
+                                                    <span data-hover="Start a Conversation">
+                                                        Talk to Bee Technology
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>  
                             
                             <!-- Row -->
                             <?php require_once(APPPATH . 'views/contactinfo.php'); ?>
@@ -185,7 +296,8 @@
                             <div class="page-nav-wrap">
                                 <div class="page-nav-caption content-full-width text-align-center height-title">                                 
                                     <div class="inner">
-                                    	<div class="next-hero-subtitle caption-timeline"><span>Let’s build something great together — contact Bee Tech today to discuss your next website, app, or branding project.</span></div>
+                                    	<div class="next-hero-subtitle caption-timeline"><span>Want a clearer picture of your business performance?
+        Let's explore how data and analytics can help your business.</span></div>
                                         <a class="page-title next-ajax-link-page" data-type="page-transition" data-centerline="CONTACT US" href="<?php echo base_url(); ?>contact">
                                             <div class="next-hero-title primary-font-title caption-timeline"><span>CONTACT US</span></div>
                                         </a>                                       

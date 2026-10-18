@@ -25,27 +25,35 @@
     <link href="<?php echo base_url(); ?>beetech/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo base_url(); ?>beetech/fonts/poppins.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>beetech/fonts/sixcaps.css">
-    <?php require_once 'float-css.php'; ?>
+    <?php require_once(APPPATH . 'views/float-css.php'); ?>
 
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Service",
+      "name": "Graphic Design Services",
       "serviceType": "Graphic Design",
+      "url": "https://www.beetechnology.in/services/graphic-design",
+      "description": "Professional graphic design services for business branding, marketing materials, social media creatives and digital communication.",
       "provider": {
         "@type": "Organization",
-        "name": "Bee Tech",
-        "url": "https://www.beetechnology.in",
-        "logo": "https://www.beetechnology.in/images/logo-white.png"
+        "name": "Bee Technology",
+        "url": "https://www.beetechnology.in"
       },
       "areaServed": [
-        { "@type": "Place", "name": "Kottayam" },
-        { "@type": "Place", "name": "Kerala" },
-        { "@type": "Place", "name": "Dubai" },
-        { "@type": "Country", "name": "India" },
-        { "@type": "Country", "name": "United Arab Emirates" }
-      ],
-      "description": "Bee Tech offers custom graphic design services for businesses across Kerala, India, and Dubai — including brand identity, logo design, brochures, and social media creatives."
+        {
+          "@type": "State",
+          "name": "Kerala"
+        },
+        {
+          "@type": "Country",
+          "name": "India"
+        },
+        {
+          "@type": "Country",
+          "name": "United Arab Emirates"
+        }
+      ]
     }
     </script>
 
@@ -138,9 +146,9 @@
                                 
                                 <div class="pinned-section">
                                     <div class="pinned-element left">
-                                        <h5 class="no-margins">Designed to Speak, Built to Last</h5>
+                                        <h5 class="no-margins">Graphic Design That Brings Your Brand to Life</h5>
                                         <p>
-                                            At Bee Tech, we believe great design isn’t just about looking good — it’s about communicating with purpose. Our graphic design services focus on building visual systems that are consistent, memorable, and tailored to your brand’s voice. From marketing materials to digital creatives, we ensure every pixel tells your story and sparks action across platforms, whether in Kerala, India, or Dubai.
+                                            Strong visual communication helps people recognise your business and understand what you offer. At Bee Technology, we create thoughtful graphic designs that bring consistency to your brand across digital platforms and marketing materials. Our focus is on combining visual appeal with clear messaging, so every design serves a purpose.
                                         </p>
                                     </div>
                                     
@@ -152,7 +160,83 @@
                                 </div>
                                 
                             </div> 
-                            <!--/Row -->      
+                            <!--/Row -->     
+
+                            <!-- OUR WORK -->
+                            <div class="content-row full row_padding_top
+                                        row_padding_bottom row_padding_left
+                                        row_padding_right dark-section"
+                                 data-bgcolor="#0c0c0c">
+
+                                <div class="one_half">
+                                    <h3>Graphic Design for Modern Businesses</h3>
+                                    <p>
+                                        Your visual identity influences how people perceive your business. We create professional graphic designs that communicate your message, reflect your brand personality and help your business present itself consistently across different platforms.
+                                    </p>
+                                </div>
+
+                                <div class="one_half last">
+                                    <h3>Social Media Creatives and Marketing Designs</h3>
+                                    <p>
+                                        Make your marketing communication more engaging with creative visuals for social media campaigns, promotional posts, advertisements and business announcements. Each design focuses on presenting your message clearly and capturing the attention of your intended audience.
+                                    </p>
+                                </div>
+
+                                <div class="one_half">
+                                    <h3>Branding and Visual Identity</h3>
+                                    <p>
+                                        Build a recognisable visual identity with designs that reflect your business values and personality. From logo-related design materials to brand colours, typography and supporting graphics, we help maintain a consistent appearance across your business communication.
+                                    </p>
+                                </div>
+
+                                <div class="one_half last">
+                                    <h3>Brochures, Flyers and Business Materials</h3>
+                                    <p>
+                                        Present your products and services professionally with well-structured marketing materials. We design brochures, flyers, promotional graphics and other business communication materials that organise information clearly and make your message easier to understand.
+                                    </p>
+                                </div>
+
+                                <div class="one_half">
+                                    <h3>Digital Graphics for Websites and Campaigns</h3>
+                                    <p>
+                                        Support your online presence with visual assets designed for websites, digital promotions and online campaigns. We consider layout, readability, visual hierarchy and brand consistency to create graphics that complement your wider digital strategy.
+                                    </p>
+                                </div>
+
+                                <div class="one_half last">
+                                    <h3>Graphic Design Services in Kerala</h3>
+                                    <p>
+                                        Bee Technology provides graphic design services for businesses in Kottayam and across Kerala, with the ability to work with clients in other locations too. Whether you need individual marketing creatives or consistent visual materials for your business, we focus on designs aligned with your brand and communication goals.
+                                    </p>
+                                </div>
+
+                                <div class="clear"></div>
+
+                            </div>
+                            <!-- END OUR WORK -->   
+
+                            <div class="content-row row_padding_bottom row_padding_left row_padding_right text-align-center">
+
+                                <h2 class="primary-font-title">
+                                    Let's Create Something Memorable
+                                </h2>
+
+                                <div class="button-box">
+                                    <div class="clapat-button-wrap parallax-wrap hide-ball">
+                                        <div class="clapat-button parallax-element">
+                                            <div class="button-border outline rounded">
+                                                <a href="<?php echo base_url(); ?>contact"
+                                                   data-type="page-transition">
+                                                    <span data-hover="Start a Conversation">
+                                                        Talk to Bee Technology
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>    
                             
                             <!-- Row -->
                             <?php require_once(APPPATH . 'views/contactinfo.php'); ?>
@@ -168,7 +252,7 @@
                             <div class="page-nav-wrap">
                                 <div class="page-nav-caption content-full-width text-align-center height-title">                                 
                                     <div class="inner">
-                                    	<div class="next-hero-subtitle caption-timeline"><span>Let’s build something great together — contact Bee Tech today to discuss your next website, app, or branding project.</span></div>
+                                    	<div class="next-hero-subtitle caption-timeline"><span>Have a design project in mind? Let's discuss how creative visuals can strengthen your brand and communicate your message more effectively.</span></div>
                                         <a class="page-title next-ajax-link-page" data-type="page-transition" data-centerline="CONTACT US" href="<?php echo base_url(); ?>contact">
                                             <div class="next-hero-title primary-font-title caption-timeline"><span>CONTACT US</span></div>
                                         </a>                                       
@@ -238,6 +322,6 @@
     
     <script src="<?php echo base_url(); ?>beetech/js/scripts.js"></script>
 
-    <?php require_once 'float-butt.php'; ?>
+    <?php require_once(APPPATH . 'views/float-butt.php'); ?>
 
 </body></html>

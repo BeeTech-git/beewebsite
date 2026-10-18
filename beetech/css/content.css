@@ -211,8 +211,7 @@
 	
 	.hero-subtitle span {
 		position:relative;
-		display:block;
-		opacity:0;
+		opacity:1;
 		transform: translateY(60px);
 		-webkit-transform: translateY(60px);
 	}
@@ -572,7 +571,7 @@
 	
 	.page-nav-caption.height-title {
 		height: calc(100vh - 120px);
-		padding-top:80px;
+		padding-top:0px;
 		padding-bottom:80px; 
 	}
 	
@@ -1168,7 +1167,7 @@
 @media only screen and (max-width: 1537px) {
 	
 	.hero-title {
-		font-size: calc(1rem + 22.15vw);
+		font-size: calc(1rem + 26.15vw);
 		line-height: calc(1rem + 20.5vw);
 	}
 	

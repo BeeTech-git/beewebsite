@@ -36,6 +36,43 @@ Function CustomFunction
 		
 	}// End CustomFunction
 	
+
+	
+/* Hover cursor text for links with .hovercursor */
+$(document).on('mouseenter', 'a.hovercursor', function () {
+    var $this = $(this);
+    var label = $this.data('centerline') || $.trim($this.text());
+
+    // Remove any previous cursor label to prevent duplicates
+    $('#ball .center-first').remove();
+
+    gsap.to('#ball', {
+        duration: 0.3,
+        borderWidth: '2px',
+        scale: 1.4,
+        borderColor: 'rgba(255,255,255,0)',
+        backgroundColor: 'rgba(128,128,128,0.5)'
+    });
+
+    gsap.to('#ball-loader', {
+        duration: 0.2,
+        borderWidth: '2px',
+        top: 2,
+        left: 2
+    });
+
+    $('#ball').addClass('with-blur');
+
+    $('<p class="center-first"></p>')
+        .text(label)
+        .appendTo('#ball');
+});
+
+$(document).on('mouseleave', 'a.hovercursor', function () {
+    $('#ball .center-first').remove();
+    $('#ball').removeClass('with-blur');
+});
+
 	
 	
 /*--------------------------------------------------

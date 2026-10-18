@@ -25,31 +25,25 @@
     <link href="<?php echo base_url(); ?>beetech/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo base_url(); ?>beetech/fonts/poppins.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>beetech/fonts/sixcaps.css">
-    <?php require_once 'float-css.php'; ?>
+    <?php require_once(APPPATH . 'views/float-css.php'); ?>
 
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Service",
-      "serviceType": "Mobile App Development",
+      "name": "Mobile App Development Services",
+      "serviceType": "Mobile Application Development",
+      "url": "https://www.beetechnology.in/services/mobile-app-development",
+      "description": "Mobile application development services for businesses, including customer-facing apps and applications designed to support business operations.",
       "provider": {
         "@type": "Organization",
-        "name": "Bee Tech",
-        "url": "https://www.beetechnology.in",
-        "logo": "https://www.beetechnology.in/beetech/images/logo-white.png"
+        "name": "Bee Technology",
+        "url": "https://www.beetechnology.in"
       },
       "areaServed": [
         {
-          "@type": "Place",
-          "name": "Kottayam"
-        },
-        {
-          "@type": "Place",
+          "@type": "State",
           "name": "Kerala"
-        },
-        {
-          "@type": "Place",
-          "name": "Dubai"
         },
         {
           "@type": "Country",
@@ -59,8 +53,7 @@
           "@type": "Country",
           "name": "United Arab Emirates"
         }
-      ],
-      "description": "Bee Tech develops custom Android and iOS mobile applications tailored for startups, enterprises, and businesses across Kerala, India, and Dubai. Our apps are designed to be scalable, user-friendly, and market-ready."
+      ]
     }
     </script>
 
@@ -154,9 +147,9 @@
                                 
                                 <div class="pinned-section">
                                     <div class="pinned-element left">
-                                        <h5 class="no-margins">Mobile-First Thinking for a Mobile-Driven World</h5>
+                                        <h5 class="no-margins">Mobile Applications Built Around Your Business</h5>
                                         <p>
-                                            In today's fast-paced digital landscape, mobile isn't just an option — it's a necessity. At Bee Tech, we design and develop mobile applications that combine intuitive user experience with powerful functionality. Whether it's a customer-facing app or an internal enterprise solution, our goal is to deliver apps that perform, scale, and delight. From native to hybrid builds, we make sure your app stands out on every screen.
+                                            A well-designed mobile application can bring your services closer to customers and simplify the way people interact with your business. Bee Technology focuses on developing mobile app solutions around your requirements, with clear navigation, useful functionality and a user experience designed for everyday use.
                                         </p>
                                     </div>
                                     
@@ -169,6 +162,82 @@
                                 
                             </div> 
                             <!--/Row -->      
+
+                            <!-- OUR WORK -->
+                            <div class="content-row full row_padding_top
+                                        row_padding_bottom row_padding_left
+                                        row_padding_right dark-section"
+                                 data-bgcolor="#0c0c0c">
+
+                                <div class="one_half">
+                                    <h3>Mobile Apps for Business Needs</h3>
+                                    <p>
+                                        Every business has different goals, users and challenges. We help define mobile application features around your specific requirements, whether you want to improve customer access, deliver a digital service or simplify an existing business process.
+                                    </p>
+                                </div>
+
+                                <div class="one_half last">
+                                    <h3>Android App Development</h3>
+                                    <p>
+                                        Reach Android users with applications designed for usability, clarity and practical functionality. We focus on creating interfaces that make it easy for users to navigate features, access information and complete tasks on their devices.
+                                    </p>
+                                </div>
+
+                                <div class="one_half">
+                                    <h3>iOS App Development</h3>
+                                    <p>
+                                        Create mobile experiences for Apple device users with interfaces designed around their needs and expectations. Application scope, technical approach and platform requirements are considered during planning to help align development with your business objectives.
+                                    </p>
+                                </div>
+
+                                <div class="one_half last">
+                                    <h3>User-Friendly Mobile App Design</h3>
+                                    <p>
+                                        A useful mobile app should feel straightforward from the first interaction. We focus on clear navigation, readable content, consistent interface elements and user journeys that help people find information and complete actions with less friction.
+                                    </p>
+                                </div>
+
+                                <div class="one_half">
+                                    <h3>Business Process and Service Applications</h3>
+                                    <p>
+                                        Mobile applications can help businesses make services and information more accessible. Depending on your requirements, an app can support bookings, customer interactions, service requests, business information or selected operational workflows.
+                                    </p>
+                                </div>
+
+                                <div class="one_half last">
+                                    <h3>Mobile App Development in Kerala</h3>
+                                    <p>
+                                        Bee Technology works with businesses in Kottayam and across Kerala to explore mobile app solutions suited to their needs. From defining the initial requirements to planning the application's features and user experience, we aim to create practical digital products that support long-term business goals.
+                                    </p>
+                                </div>
+
+                                <div class="clear"></div>
+
+                            </div>
+                            <!-- END OUR WORK -->   
+
+                            <div class="content-row row_padding_bottom row_padding_left row_padding_right text-align-center">
+
+                                <h2 class="primary-font-title">
+                                    Let's Build Your Mobile App
+                                </h2>
+
+                                <div class="button-box">
+                                    <div class="clapat-button-wrap parallax-wrap hide-ball">
+                                        <div class="clapat-button parallax-element">
+                                            <div class="button-border outline rounded">
+                                                <a href="<?php echo base_url(); ?>contact"
+                                                   data-type="page-transition">
+                                                    <span data-hover="Start a Conversation">
+                                                        Talk to Bee Technology
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>      
                             
                             <!-- Row -->
                             <?php require_once(APPPATH . 'views/contactinfo.php'); ?>
@@ -184,7 +253,7 @@
                             <div class="page-nav-wrap">
                                 <div class="page-nav-caption content-full-width text-align-center height-title">                                 
                                     <div class="inner">
-                                    	<div class="next-hero-subtitle caption-timeline"><span>Let’s build something great together — contact Bee Tech today to discuss your next website, app, or branding project.</span></div>
+                                    	<div class="next-hero-subtitle caption-timeline"><span>Have an idea for a mobile application? Let's discuss your requirements, explore the right approach and plan an app that serves your users and business goals.</span></div>
                                         <a class="page-title next-ajax-link-page" data-type="page-transition" data-centerline="CONTACT US" href="<?php echo base_url(); ?>contact">
                                             <div class="next-hero-title primary-font-title caption-timeline"><span>CONTACT US</span></div>
                                         </a>                                       
@@ -254,6 +323,6 @@
     
     <script src="<?php echo base_url(); ?>beetech/js/scripts.js"></script>
 
-    <?php require_once 'float-butt.php'; ?>
+    <?php require_once(APPPATH . 'views/float-butt.php'); ?>
 
 </body></html>

@@ -20,6 +20,7 @@
     <meta charset="UTF-8">
     <meta name="author" content="BeeTech">
     <link href="<?php echo base_url(); ?>beetech/css/style.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>beetech/css/services.css" rel="stylesheet">
     <link href="<?php echo base_url(); ?>beetech/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo base_url(); ?>beetech/fonts/poppins.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>beetech/fonts/sixcaps.css">
@@ -134,21 +135,6 @@
 	
 	<main>		
         <!-- Preloader -->
-        <div class="preloader-wrap" data-centerline="Loading">
-            <div class="outer">
-                <div class="inner">                    
-                    <div class="trackbar">
-                    	<div class="preloader-intro">
-                        	<span>Loading</span>
-                        </div>
-                        <div class="loadbar"></div>
-                        <div class="percentage-wrapper"><div class="percentage" id="precent"></div></div>
-                    </div>
-                    
-                    <div class="percentage-intro">Please wait, content is loading</div>                     
-                </div>
-            </div>
-        </div>
         <!--/Preloader -->     
         
         <div class="cd-index cd-main-content">
@@ -212,46 +198,181 @@
                             
                             
                             <!-- Row -->
-                            <div class="content-row full row_padding_left row_padding_right dark-section fadeout-element" data-bgcolor="#0c0c0c">
-                            
-                                <div class="list-rotator-wrapper">                                
-                                	<div class="list-rotator-title">OUR SERVICES COVER</div>                  
-                                    <div class="list-rotator-pin">                                    
-                                        <ul class="list-rotator primary-font-title">
-                                            <a href="<?php echo base_url(); ?>services/web-design">
-                                                <li class="">Web Design</li>
+                            <div class="content-row">
+                                <div class="five_sixth">
+                                    <h2>Digital Solutions for Business Growth</h2>
+                                    <p>We build digital systems that help businesses operate
+                                    efficiently, attract customers and make better decisions.</p>
+                                </div>
+
+                                <div class="clear"></div>
+                                <div>
+                                    
+                                </div>
+                                <!-- Website Development -->
+                                <div class="one_fourth has-animation row_padding_top" data-delay="100">
+                                    <div class="box-icon-wrapper block-boxes">
+                                        <div class="box-icon">
+                                            <i class="fa fa-code fa-2x" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="box-icon-content">
+                                            <h5>Website Development</h5>
+                                            <p>Fast, responsive websites designed to present
+                                            your business professionally and generate enquiries.</p>
+                                            <a href="<?php echo base_url(); ?>services/web-design" class="link">
+                                                <span>Explore Service</span>
                                             </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Web Applications -->
+                                <div class="one_fourth has-animation row_padding_top" data-delay="200">
+                                    <div class="box-icon-wrapper block-boxes">
+                                        <div class="box-icon">
+                                            <i class="fa fa-laptop fa-2x" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="box-icon-content">
+                                            <h5>Web Applications</h5>
+                                            <p>Custom business software to manage workflows,
+                                            customers, transactions and everyday operations.</p>
+                                            <a href="<?php echo base_url(); ?>services/web-applications" class="link">
+                                                <span>Explore Service</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Website SEO -->
+                                <div class="one_fourth has-animation row_padding_top" data-delay="300">
+                                    <div class="box-icon-wrapper block-boxes">
+                                        <div class="box-icon">
+                                            <i class="fa fa-search fa-2x" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="box-icon-content">
+                                            <h5>Website SEO</h5>
+                                            <p>Improve technical performance, search visibility
+                                            and your opportunities to reach relevant customers.</p>
+                                            <a href="<?php echo base_url(); ?>services/seo-optimization" class="link">
+                                                <span>Explore Service</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Data Analytics -->
+                                <div class="one_fourth last has-animation row_padding_top" data-delay="400">
+                                    <div class="box-icon-wrapper block-boxes">
+                                        <div class="box-icon">
+                                            <i class="fa fa-chart-line fa-2x" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="box-icon-content">
+                                            <h5>Data &amp; Analytics</h5>
+                                            <p>Turn business records into useful reports that
+                                            reveal inefficiencies and growth opportunities.</p>
+                                            <a href="<?php echo base_url(); ?>services/data-analytics" class="link">
+                                                <span>Explore Service</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="clear"></div>
+                            </div>
+                            <!--/Row -->     
+
+
+                            <!-- Additional Services -->
+                            <div class="content-row row_padding_top row_padding_bottom
+                                        dark-section"
+                                 data-bgcolor="#0c0c0c">
+
+                                <div class="content-full-width">
+                                    <h2 class="primary-font-title">More Ways We Help</h2>
+                                    <p>
+                                        Supporting services that strengthen your brand,
+                                        improve your digital presence and help your business grow.
+                                    </p>
+                                </div>
+
+                                <div class="one_half">
+                                    <ul class="additional-services-list">
+                                        <li>
                                             <a href="<?php echo base_url(); ?>services/ui-ux-design">
-                                                <li>UI/UX Design</li>
+                                                UI/UX Design <span>↗</span>
                                             </a>
+                                        </li>
+                                        <li>
                                             <a href="<?php echo base_url(); ?>services/graphic-design">
-                                                <li>Graphic Design</li>
+                                                Graphic Design <span>↗</span>
                                             </a>
+                                        </li>
+                                        <li>
                                             <a href="<?php echo base_url(); ?>services/mobile-app-development">
-                                                <li>Mobile App Development</li>
+                                                Mobile App Development <span>↗</span>
                                             </a>
-                                            <a href="<?php echo base_url(); ?>services/seo-optimization">
-                                                <li>SEO Optimization</li>
-                                            </a>
-                                            <a href="<?php echo base_url(); ?>services/social-media-management">
-                                                <li>Social Media Management</li>
-                                            </a>
-                                            <a href="<?php echo base_url(); ?>services/data-analytics">
-                                                <li>Data Analytics</li>
-                                            </a>
-                                            <a href="<?php echo base_url(); ?>services/content-creation">
-                                                <li>Content Creation</li>
-                                            </a>
+                                        </li>
+                                        <li>
                                             <a href="<?php echo base_url(); ?>services/branding">
-                                                <li>Branding</li>
+                                                Branding <span>↗</span>
                                             </a>
-                                        </ul>                                        
-                                    </div>                            
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="one_half last">
+                                    <ul class="additional-services-list">
+                                        <li>
+                                            <a href="<?php echo base_url(); ?>services/social-media-management">
+                                                Social Media Management <span>↗</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="<?php echo base_url(); ?>services/content-creation">
+                                                Content Creation <span>↗</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="<?php echo base_url(); ?>services/google-business-optimization">
+                                                Google Business Optimization <span>↗</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="<?php echo base_url(); ?>contact">
+                                                Need Something Custom? <span>↗</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="clear"></div>
+                            </div>
+                            <!-- End Additional Services -->
+
+
+                            <div class="content-row text-align-center">
+
+                                <div class="button-box" style="text-align:center;">
+                                    <div class="clapat-button-wrap parallax-wrap hide-ball">
+                                        <div class="clapat-button parallax-element">
+                                            <div class="button-border outline rounded">
+                                                <a href="tel:+918891618698"
+                                                   data-type="page-transition">
+                                                    <span data-hover="Call BeeTech">
+                                                        Give us a call
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                                 
-                            </div> 
-                            <!--/Row -->     
-                            
+                            </div>    
+
+
+
+
+                                                
                             <!-- Row -->
                             <?php require_once 'contactinfo.php'; ?>
                            <!--/Row -->

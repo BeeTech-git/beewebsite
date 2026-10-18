@@ -3,7 +3,7 @@
         .floating-buttons{
             position:fixed;
             right:0;
-            top:50%;
+            top:30%;
             transform:translateY(-50%);
             z-index:9999;
         }
@@ -12,8 +12,8 @@
         .float-btn{
             position:absolute;
             right:-125px;          /* Hide text */
-            width:180px;
-            height:55px;
+            width:170px;
+            height:45px;
 
             display:flex;
             align-items:center;

@@ -1,9 +1,5 @@
 /*------------------------------------------------------------------
-Project:	Serano - Creative Portfolio Template
-Version:	1.0
-Last change:	15/08/2022
-Assigned to:	www.ClaPat.com 
-Primary use:	Showcase Portfolio 
+beetech
 -------------------------------------------------------------------*/
 
 @import url("content.css");
@@ -1689,7 +1685,7 @@ Primary use:	Showcase Portfolio
 	
 	#logo img {
 		display: block;
-		height: 50px;
+		height: 90px;
 		width: auto;
 		max-width:none;
 		-webkit-transition: opacity 0.15s ease-in-out 0s;
@@ -2109,7 +2105,7 @@ Primary use:	Showcase Portfolio
         }
 		
 		.fullscreen-menu .flexnav .touch-button .navicon {
-			display:none;
+			display:block;
 		}
 		
 		.fullscreen-menu .flexnav li.link {
@@ -2130,7 +2126,7 @@ Primary use:	Showcase Portfolio
 		.fullscreen-menu .flexnav .touch-button {
 			width: 100%;
 			display: block;
-			height:calc(1rem + 7.5vw);
+			height:calc(1rem + 6.5vw);
 		}
 		
 		.fullscreen-menu .flexnav li a {
@@ -2700,7 +2696,7 @@ Primary use:	Showcase Portfolio
 	
 	.socials li a {
 		color: #000;		
-		font-size:14px;
+		font-size:30px;
 		font-weight: 500;
 		display: block;
 		height: 40px;
@@ -3916,3 +3912,80 @@ Primary use:	Showcase Portfolio
   text-transform: none!important;
   margin-top: 30px!important;
 }
+
+
+#newsletter-formular {
+    max-width: 650px;
+    margin: 40px auto 0;
+}
+
+.newsletter-input-wrap {
+    display: flex;
+    align-items: stretch;
+    gap: 15px;
+}
+
+.newsletter-input-wrap input[type="email"] {
+    flex: 1;
+    min-width: 0;
+    margin: 0;
+}
+
+.newsletter-submit {
+    padding: 0 25px;
+    background: #fff;
+    color: #0c0c0c;
+    border: 1px solid #fff;
+    font: inherit;
+    cursor: pointer;
+    transition: background .3s ease, color .3s ease;
+}
+
+.newsletter-submit:hover {
+    background: transparent;
+    color: #fff;
+}
+
+.newsletter-note {
+    margin-top: 15px;
+    font-size: 12px;
+    opacity: .65;
+}
+
+@media (max-width: 600px) {
+    .newsletter-input-wrap {
+        flex-direction: column;
+    }
+
+    .newsletter-submit {
+        min-height: 50px;
+    }
+}
+
+.unsubscribe {
+    position: relative;
+    color: #888;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.unsubscribe::after {
+    content: "Unsubscribe";
+    position: absolute;
+    inset: 0;
+    color: #ff0000;
+    white-space: nowrap;
+    clip-path: inset(0 100% 0 0);
+    transition: clip-path 0.8s ease-in-out;
+    pointer-events: none;
+    margin-top: -6px;
+}
+
+.unsubscribe:hover::after {
+    clip-path: inset(0 0 0 0);
+    display: inline-block;
+}
+
+
+
+

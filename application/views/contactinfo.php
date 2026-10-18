@@ -1,4 +1,4 @@
-<div class="content-row dark-section text-align-center" data-bgcolor="#0c0c0c" style="margin-top: 40px;">
+                            <div class="content-row dark-section text-align-center" data-bgcolor="#0c0c0c" style="margin-top: 80px;">
                            
                            		<div class="one_third has-animation" data-delay="100">
                                     
@@ -46,3 +46,52 @@
                                 </div> 
                                                        
                            </div> 
+
+                                                       
+                            <!-- Newsletter Subscription -->
+                            <div class="content-row row_padding_top row_padding_bottom
+                                        row_padding_left row_padding_right dark-section text-align-center"
+                                 data-bgcolor="#0c0c0c">
+
+                                <div class="content-full-width">
+
+                                    <p class="has-opacity">THE BEE TECHNOLOGY BRIEF</p>
+
+                                    <h2 class="big-title has-mask-fill primary-font-title">
+                                        STAY AHEAD.
+                                    </h2>
+
+                                    <p>
+                                        Insights on websites, SEO, business software and data
+                                        to help you make smarter business decisions.
+                                    </p>
+
+                                    <div id="newsletter-formular">
+                                        <form action="" method="post" id="newsletter-form">
+
+                                            <div class="newsletter-input-wrap">
+                                                <input
+                                                    type="email"
+                                                    name="subscriber_email"
+                                                    id="subscriber_email"
+                                                    placeholder="Enter your email address"
+                                                    aria-label="Email address"
+                                                    required
+                                                >
+
+                                                <button type="submit"
+                                                        class="newsletter-submit">
+                                                    Subscribe ↗
+                                                </button>
+                                            </div>
+
+                                            <p class="newsletter-note">
+                                                Useful insights only. <a href="" class="unsubscribe">Unsubscribe</a> anytime.
+                                            </p>
+
+                                        </form>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- End Newsletter Subscription -->

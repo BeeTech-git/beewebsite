@@ -1,9 +1,9 @@
 <!DOCTYPE html><html lang="en">
     
 <head>
-    <title>Web Design Services | Custom Website Development in India, Kerala & Dubai</title>
+    <title>Website Design Company in Kottayam, Kerala | Bee Technology</title>
     
-    <meta name="description" content="Bee Tech offers custom web design and development services for businesses in India, Kerala, and Dubai. From responsive websites to scalable web apps, we craft digital experiences that drive engagement and results.">
+    <meta name="description" content="Looking for professional website design in Kottayam, Kerala? Bee Technology creates responsive, user-friendly websites designed to strengthen your brand and support business growth.">
     <meta name="keywords" content="web design India, website design Kerala, web development Dubai, responsive website development, custom websites Kottayam, UI UX web design UAE, best web agency Dubai, Bee Tech web solutions">
     <meta name="robots" content="index, follow">
     <meta name="author" content="Bee Tech">
@@ -23,7 +23,7 @@
     <link href="<?php echo base_url(); ?>beetech/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo base_url(); ?>beetech/fonts/poppins.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>beetech/fonts/sixcaps.css">
-    <?php require_once 'float-css.php'; ?>
+    <?php require_once(APPPATH . 'views/float-css.php'); ?>
 
     <script type="application/ld+json">
     {
@@ -58,7 +58,7 @@
           "name": "United Arab Emirates"
         }
       ],
-      "description": "Bee Tech provides custom web design and development solutions tailored to businesses across Kerala, India, and Dubai, with a focus on performance, UX, and brand alignment."
+      "description": "Looking for professional website design in Kottayam, Kerala? Bee Technology creates responsive, user-friendly websites designed to strengthen your brand and support business growth."
     }
     </script>
 
@@ -150,9 +150,9 @@
                                 
                                 <div class="pinned-section">
                                     <div class="pinned-element left">
-                                        <h5 class="no-margins">Custom Web Design That Elevates Your Brand</h5>
+                                        <h5 class="no-margins">Web Design That Makes Your Business Stand Out</h5>
                                         <p>
-                                            At Bee Tech, we craft visually compelling, user-focused websites tailored to your brand goals. Whether you're a startup in Kerala, a growing business in India, or a company expanding in Dubai, our web design solutions are built to drive engagement and convert visitors into customers. We blend creativity, responsive design, performance optimization, and SEO best practices to ensure your website not only looks great but also performs across all devices and markets.
+                                            Your website is often the first impression customers have of your business. At Bee Technology, we create professional, responsive website designs that combine visual appeal, intuitive navigation and user-focused experiences. Whether you are a startup, a growing business or an established company, we design websites that reflect your brand, communicate your value and help visitors take action. Our approach to web design focuses on mobile usability, clear content structure, fast-loading experiences and search engine-friendly foundations, helping your business build credibility and reach more potential customers online.
                                         </p>
                                     </div>
                                     
@@ -164,7 +164,83 @@
                                 </div>
                                 
                             </div> 
-                            <!--/Row -->      
+                            <!--/Row -->   
+
+                            <!-- OUR WORK -->
+                            <div class="content-row full row_padding_top
+                                        row_padding_bottom row_padding_left
+                                        row_padding_right dark-section"
+                                 data-bgcolor="#0c0c0c">
+
+                                <div class="one_half">
+                                    <h3>Professional Website Design for Modern Businesses</h3>
+                                    <p>
+                                        A good website should do more than look attractive. It should help people understand your business, find the information they need and confidently choose your products or services. Our website design process combines thoughtful layouts, consistent branding and practical functionality to create a smooth experience across desktop, tablet and mobile devices.
+                                    </p>
+                                </div>
+
+                                <div class="one_half last">
+                                    <h3>Responsive Design for Every Screen</h3>
+                                    <p>
+                                        Your customers may visit your website from a smartphone, tablet or desktop computer. We design responsive layouts that adapt to different screen sizes, keeping your content readable, navigation accessible and important actions easy to find.
+                                    </p>
+                                </div>
+
+                                <div class="one_half">
+                                    <h3>User Experience That Guides Visitors</h3>
+                                    <p>
+                                        A well-structured website helps visitors move naturally from discovering your business to exploring your services and contacting your team. We focus on clear navigation, meaningful page layouts, readable typography and strategically placed calls to action.
+                                    </p>
+                                </div>
+
+                                <div class="one_half last">
+                                    <h3>Website Design With SEO in Mind</h3>
+                                    <p>
+                                        Search visibility begins with a website that is easy to understand and navigate. We consider heading structure, mobile usability, image optimisation, descriptive page content and internal linking as part of the design process. These foundations support SEO, while rankings also depend on content quality, technical performance, competition and other factors.
+                                    </p>
+                                </div>
+
+                                <div class="one_half ">
+                                    <h3>Design That Reflects Your Brand</h3>
+                                    <p>
+                                        Your website should communicate what makes your business different. We align layouts, colours, typography, imagery and messaging with your brand identity to create a consistent digital presence that builds recognition and trust.
+                                    </p>
+                                </div>
+
+                                <div class="one_half last">
+                                    <h3>Website Design Services in Kottayam and Kerala</h3>
+                                    <p>
+                                        Bee Technology works with businesses looking to establish or improve their online presence in Kottayam and across Kerala. We combine creative design with practical business thinking to deliver websites that communicate your value, serve your customers and strengthen your digital presence. Our goal is to help businesses present themselves professionally online and create a better experience for their potential customers.
+                                    </p>
+                                </div>
+
+                                <div class="clear"></div>
+
+                            </div>
+                            <!-- END OUR WORK -->  
+
+                            <div class="content-row row_padding_bottom row_padding_left row_padding_right text-align-center">
+
+                                <h2 class="primary-font-title">
+                                    Let's Start Designing
+                                </h2>
+
+                                <div class="button-box">
+                                    <div class="clapat-button-wrap parallax-wrap hide-ball">
+                                        <div class="clapat-button parallax-element">
+                                            <div class="button-border outline rounded">
+                                                <a href="<?php echo base_url(); ?>contact"
+                                                   data-type="page-transition">
+                                                    <span data-hover="Start a Conversation">
+                                                        Talk to Bee Technology
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div> 
                             
                             <!-- Row -->
                             <?php require_once(APPPATH . 'views/contactinfo.php'); ?>
@@ -250,6 +326,6 @@
     
     <script src="<?php echo base_url(); ?>beetech/js/scripts.js"></script>
 
-    <?php require_once 'float-butt.php'; ?>
+    <?php require_once(APPPATH . 'views/float-butt.php'); ?>
 
 </body></html>

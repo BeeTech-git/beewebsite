@@ -21,6 +21,7 @@
     <link href="<?php echo base_url(); ?>beetech/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo base_url(); ?>beetech/fonts/poppins.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>beetech/fonts/sixcaps.css">
+    <link href="<?php echo base_url(); ?>beetech/css/home.css" rel="stylesheet">
     <?php require_once 'float-css.php'; ?>
 
     <script type="application/ld+json">
@@ -63,21 +64,15 @@
 	
 	<main>		
         <!-- Preloader -->
-        <div class="preloader-wrap" data-centerline="Loading">
-            <div class="outer">
-                <div class="inner">                    
-                    <div class="trackbar">
-                    	<div class="preloader-intro">
-                        	<span>Loading</span>
-                        </div>
-                        <div class="loadbar"></div>
-                        <div class="percentage-wrapper"><div class="percentage" id="precent"></div></div>
-                    </div>
-                    
-                    <div class="percentage-intro">Please wait, content is loading</div>                     
-                </div>
-            </div>
-        </div>
+        <?php 
+            $is_internal = !empty($_SERVER['HTTP_REFERER']) &&
+               parse_url($_SERVER['HTTP_REFERER'], PHP_URL_HOST) ===
+               parse_url(base_url(), PHP_URL_HOST);
+
+            if (!$is_internal) {
+                require_once 'preloader.php'; 
+            }
+        ?>
         <!--/Preloader -->     
         
         <div class="cd-index cd-main-content">
@@ -106,13 +101,9 @@
                                     <h1 class="hero-title caption-timeline primary-font-title"><span>Bee Tech</span></h1>
                                     <div class="hero-subtitle caption-timeline">
                                     	<span>
-                                            <span>BEE DESIGN. BEE CREATIVE. BEE SEEN.</span>
+                                            <span>Website & Web Application Development Company</span>
                                             <br class="destroy">
-                                            We’re a creative digital studio in Kerala, blending ,branding, strategy, web design,
-                                             and development with smart data analytics. 
-                                             We build custom websites, scalable web apps, and strong visual identities that perform. 
-                                             Whether you're a startup or growing brand, we make sure you're seen, ranked, and remembered — <br>
-                                             because at Bee Tech, we don’t just code, we <strong>bee-code your needs</strong>.
+                                            We build high-performance websites and custom web applications that help businesses operate smarter, reach more customers and grow. With website SEO and data-driven analytics built into the process, we turn your digital operations into measurable business growth.</strong>
                                         </span>
                                     </div>                                   
                                 </div>
@@ -129,7 +120,7 @@
                                     </div>
                                 </div>
                                 <div class="hero-footer-right">
-                    				<div id="info-text">Our Services</div>
+                    				<div id="info-text">What we do</div>
                                 </div>
                             </div>                                  
                         </div>
@@ -141,6 +132,67 @@
                     <div id="main-content">
                         <!-- Main Page Content -->
                         <div id="main-page-content" class="content-full-width">   
+
+                        <!-- Build / Attract / Measure: Horizontal Panels -->
+                            <div class="content-row full dark-section" data-bgcolor="#0c0c0c">
+                                <div class="content-row row_padding_left row_padding_right text-align-center">
+                                    <div class="hero-subtitle"><span class="has-opacity">ONE DIGITAL FOUNDATION. THREE BUSINESS OUTCOMES.</span></div>
+                                    <h2 class="primary-font-title">Build. Attract. Measure.</h2>
+                                    <p>Every digital system should do more than exist. It should help your business perform.</p>
+                                </div>
+                                <div class="panels" data-widthratio="0.78">
+                                    <div class="panels-container">
+                                        <div class="panel">
+                                            <img src="<?php echo base_url(); ?>beetech/images/services/build.webp" width="726" height="724" alt="Custom website development">
+                                            <div class="panel-caption-bee">
+                                                <a href="" class="hovercursor" data-type="page-transition" data-centerline="BUILD">
+                                                    <small>Websites &amp; web applications built around your workflow.</small>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="panel">
+                                            <img src="<?php echo base_url(); ?>beetech/images/services/attract.webp" width="722" height="724" alt="Website SEO optimization">
+                                            <div class="panel-caption-bee">
+                                                <a href="" class="hovercursor" data-type="page-transition" data-centerline="ATTRACT">
+                                                    <small>SEO foundations that help customers find you when they search.</small>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="panel">
+                                            <img src="<?php echo base_url(); ?>beetech/images/services/measure.webp" width="723" height="724" alt="Business data analytics dashboard">
+                                            <div class="panel-caption-bee">
+                                                <a href="" class="hovercursor" data-type="page-transition" data-centerline="MEASURE">
+                                                    <small>Data captured, organised and turned into useful business insight.</small>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/Build / Attract / Measure: Horizontal Panels -->
+
+                            <!-- Data to Decisions: Slowed Pin -->
+                            <div class="content-row full dark-section" data-bgcolor="#0c0c0c">
+                                <div class="slowed-pin">
+                                    <div class="slowed-text">
+                                        <div class="slowed-text-wrapper text-align-center">
+                                            <h2 class="primary-font-title">
+                                                DATA SHOULD WORK FOR YOU.
+                                                <br>
+                                                From digital activity<br>to better decisions.
+                                            </h2>
+                                            <p>We design systems that keep your business records organised and turn everyday activity into information you can actually use.</p>
+                                        </div>
+                                    </div>
+                                    <div class="slowed-images">
+                                        <div class="slowed-image"><img src="<?php echo base_url(); ?>beetech/images/services/collect.webp" alt="Collecting data"></div>
+                                        <div class="slowed-image"><img src="<?php echo base_url(); ?>beetech/images/services/analyse.webp" alt="Analyze the data"></div>
+                                        <div class="slowed-image"><img src="<?php echo base_url(); ?>beetech/images/services/score.webp" alt="Use analyzed data for better decision making"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/Data to Decisions: Slowed Pin -->
                             
                             
                             <!-- Row -->
@@ -150,31 +202,37 @@
                                 	<div class="list-rotator-title">OUR SKILLS COVER</div>                  
                                     <div class="list-rotator-pin">                                    
                                         <ul class="list-rotator primary-font-title">
-                                            <a href="<?php echo base_url(); ?>services/web-design">
-                                                <li class="">Web Design</li>
+                                            <a class="hovercursor" data-centerline="Web Design" href="<?php echo base_url(); ?>services/web-design">
+                                                <li class="">Website Design</li>
                                             </a>
-                                            <a href="<?php echo base_url(); ?>services/ui-ux-design">
+                                            <a class="hovercursor" data-centerline="Web Applications" href="<?php echo base_url(); ?>services/web-applications">
+                                                <li class="">Web Applications</li>
+                                            </a>
+                                            <a class="hovercursor" data-centerline="Website SEO" href="<?php echo base_url(); ?>services/seo-optimization">
+                                                <li class="">Website SEO</li>
+                                            </a>
+                                            <a class="hovercursor" data-centerline="Data & Analytics" href="<?php echo base_url(); ?>services/data-analytics">
+                                                <li class="">Data & Analytics</li>
+                                            </a>
+                                            <a class="hovercursor" data-centerline="UI/UX Design" href="<?php echo base_url(); ?>services/ui-ux-design">
                                                 <li>UI/UX Design</li>
                                             </a>
-                                            <a href="<?php echo base_url(); ?>services/graphic-design">
+                                            <a class="hovercursor" data-centerline="Graphic Design" href="<?php echo base_url(); ?>services/graphic-design">
                                                 <li>Graphic Design</li>
                                             </a>
-                                            <a href="<?php echo base_url(); ?>services/mobile-app-development">
+                                            <a class="hovercursor" data-centerline="Mobile App Development" href="<?php echo base_url(); ?>services/mobile-app-development">
                                                 <li>Mobile App Development</li>
                                             </a>
-                                            <a href="<?php echo base_url(); ?>services/seo-optimization">
-                                                <li>SEO Optimization</li>
+                                            <a class="hovercursor" data-centerline="Google Business" href="<?php echo base_url(); ?>services/google-business-optimization">
+                                                <li>Google Business Optimization</li>
                                             </a>
-                                            <a href="<?php echo base_url(); ?>services/social-media-management">
+                                            <a class="hovercursor" data-centerline="Social Media Management" href="<?php echo base_url(); ?>services/social-media-management">
                                                 <li>Social Media Management</li>
                                             </a>
-                                            <a href="<?php echo base_url(); ?>services/data-analytics">
-                                                <li>Data Analytics</li>
-                                            </a>
-                                            <a href="<?php echo base_url(); ?>services/content-creation">
+                                            <a class="hovercursor" data-centerline="Content Creation" href="<?php echo base_url(); ?>services/content-creation">
                                                 <li>Content Creation</li>
                                             </a>
-                                            <a href="<?php echo base_url(); ?>services/branding">
+                                            <a class="hovercursor" data-centerline="Branding" href="<?php echo base_url(); ?>services/branding">
                                                 <li>Branding</li>
                                             </a>
                                         </ul>                                        
@@ -193,35 +251,18 @@
                                         <div class="overlapping-gallery">
                                         
                                             <div class="overlapping-image">
-                                                <div class="overlapping-image-inner trigger-item" data-centerline="">                                                    
+                                                <div class="overlapping-image-inner" data-centerline="">                                                    
                                                     <div class="img-mask">
                                                         <a class="slide-link" data-type="page-transition" href=""></a>
-                                                        <div class="section-image trigger-item-link">
+                                                        <div class="section-image">
                                                             <img src="<?php echo base_url(); ?>beetech/images/projects/project1.webp" class="item-image grid__item-img" alt="">
                                                         </div>                                                
                                                         <img src="<?php echo base_url(); ?>beetech/images/projects/project1.webp" class="grid__item-img grid__item-img--large" alt="">                              
                                                     </div>
-                                                    <div class="slide-caption trigger-item-link-secondary">
+                                                    <div class="slide-caption">
                                                         <div class="slide-title primary-font-title"><span>SAEW</span></div>
                                                         <!--<div class="slide-date"><span>Date</span></div>-->
                                                         <div class="slide-cat"><span>Design, Develop, Hosting</span></div>                                           
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            
-                                            <div class="overlapping-image">
-                                                <div class="overlapping-image-inner trigger-item" data-centerline="">                                                    
-                                                    <div class="img-mask">
-                                                        <a class="slide-link" data-type="page-transition" href=""></a>
-                                                        <div class="section-image trigger-item-link">
-                                                            <img src="<?php echo base_url(); ?>beetech/images/projects/project2.webp" class="item-image grid__item-img" alt="">
-                                                        </div>                                                
-                                                        <img src="<?php echo base_url(); ?>beetech/images/projects/project2.webp" class="grid__item-img grid__item-img--large" alt="">                              
-                                                    </div>
-                                                    <div class="slide-caption trigger-item-link-secondary">
-                                                        <div class="slide-title primary-font-title"><span>Binary Traders</span></div>
-                                                        <!--<div class="slide-date"><span>Date</span></div>-->
-                                                        <div class="slide-cat"><span>Design, Develop, Hosting</span></div>                                   
                                                     </div>
                                                 </div>
                                             </div>

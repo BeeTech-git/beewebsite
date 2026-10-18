@@ -63,21 +63,7 @@
 	
 	<main>		
         <!-- Preloader -->
-        <div class="preloader-wrap" data-centerline="Loading">
-            <div class="outer">
-                <div class="inner">                    
-                    <div class="trackbar">
-                    	<div class="preloader-intro">
-                        	<span>Loading</span>
-                        </div>
-                        <div class="loadbar"></div>
-                        <div class="percentage-wrapper"><div class="percentage" id="precent"></div></div>
-                    </div>
-                    
-                    <div class="percentage-intro">Please wait, content is loading</div>                     
-                </div>
-            </div>
-        </div>
+         
         <!--/Preloader -->     
         
         <div class="cd-index cd-main-content">
@@ -136,7 +122,122 @@
                     <div id="main-content">
                         <!-- Main Page Content -->
                         <div id="main-page-content" class="content-full-width">   
-                            
+
+
+<!-- OUR STORY -->
+<div class="content-row row_padding_top row_padding_bottom
+            row_padding_left row_padding_right">
+
+    <div class="one_half text-align-center">
+        <h2 class="primary-font-title" style="margin-top: 16%;">
+            Our 
+            <span>Story</span>
+        </h2>
+    </div>
+
+    <div class="one_half last">
+        <p>
+            Bee Technology was built around a simple idea:
+            technology should make businesses work better.
+        </p>
+
+        <p>
+            We develop websites that strengthen a business's
+            online presence and web applications that help
+            organise everyday operations. We also help
+            businesses improve their search visibility and
+            turn digital records into useful business insights.
+        </p>
+
+        <p>
+            Our focus is not just on delivering digital
+            products, but on building solutions that serve
+            a clear business purpose.
+        </p>
+    </div>
+
+    <div class="clear"></div>
+</div>
+<!-- END OUR STORY -->
+
+
+
+
+<!-- Who We Are - Pinned Section -->
+<div class="content-row row_padding_top row_padding_bottom
+            row_padding_left row_padding_right dark-section"
+     data-bgcolor="#0c0c0c">
+
+    <div class="pinned-section">
+
+        <!-- Left: Pinned heading -->
+        <div class="pinned-element left">
+
+            <h2 class="primary-font-title">
+                WHO<br>WE ARE<span class="text-white">.</span>
+            </h2>
+
+            <p>
+                Website & Web Application
+                Development Company in Kerala
+            </p>
+
+        </div>
+
+        <!-- Right: Scrolling content -->
+        <div class="scrolling-element right">
+
+            <h3>We Build Technology That Moves Businesses Forward.</h3>
+
+            <p>
+                Bee Technology is a Kerala-based website and
+                web application development company helping
+                businesses build a stronger digital presence
+                and operate more efficiently.
+            </p>
+
+            <hr>
+
+            <h4>Beyond Website Development</h4>
+
+            <p>
+                We develop custom web applications that help
+                businesses manage customers, transactions,
+                inventory, workflows and everyday operations
+                through organised digital systems.
+            </p>
+
+            <hr>
+
+            <h4>Technology Backed by Data</h4>
+
+            <p>
+                Our solutions go beyond storing information.
+                We transform business records into meaningful
+                reports, dashboards and insights that help
+                identify inefficiencies, improve decisions
+                and increase productivity.
+            </p>
+
+            <hr>
+
+            <h4>Built for Visibility and Growth</h4>
+
+            <p>
+                Alongside development, we help businesses
+                improve their online visibility through
+                website SEO, technical optimisation and
+                search-focused digital experiences.
+            </p>
+
+        </div>
+
+        <div class="clear"></div>
+
+    </div>
+
+</div>
+<!-- End Who We Are -->
                             
                             <!-- Row -->
                             <div class="content-row full text-align-center row_padding_left row_padding_right dark-section" data-bgcolor="#0c0c0c">
@@ -197,6 +298,105 @@
                                 </div>
                             </div> 
                             <!--/Row -->      
+
+
+
+<!-- OUR WORK -->
+<div class="content-row full row_padding_top
+            row_padding_bottom row_padding_left
+            row_padding_right dark-section"
+     data-bgcolor="#0c0c0c">
+
+    <div class="">
+        <h2 class="section-title">Our Works</h2>
+
+        <p>
+            Every project begins with a business need.
+            We develop digital experiences and applications
+            designed around that need.
+        </p>
+    </div>
+
+    <div class="one_half">
+        <a href="<?php echo base_url(); ?>services/web-design">
+            <img
+                src="<?php echo base_url(); ?>images/projects/website-project.jpg"
+                alt="Business website designed and developed by Bee Technology"
+                loading="lazy"
+                style="width:100%;height:auto;"
+            >
+        </a>
+
+        <h3>Business Website Development</h3>
+        <p>
+            Responsive websites built to communicate a brand,
+            present its services and support customer enquiries.
+        </p>
+    </div>
+
+    <div class="one_half last">
+        <a href="<?php echo base_url(); ?>services/web-design">
+            <img
+                src="<?php echo base_url(); ?>images/projects/business-software.jpg"
+                alt="Business software and web application development"
+                loading="lazy"
+                style="width:100%;height:auto;"
+            >
+        </a>
+
+        <h3>Business Software & Web Applications</h3>
+        <p>
+            Digital tools that help businesses organise records,
+            manage workflows and make information easier to use.
+        </p>
+    </div>
+
+    <div class="clear"></div>
+
+    <div class="content-full-width text-align-center">
+        <a href="<?php echo base_url(); ?>contact">
+            <span>Discuss Your Project</span>
+        </a>
+    </div>
+
+</div>
+<!-- END OUR WORK -->
+
+
+<!-- ABOUT PAGE CTA -->
+<div class="content-row row_padding_top row_padding_bottom
+            row_padding_left row_padding_right text-align-center">
+
+    <h2 class="primary-font-title">
+        Let's Build Something That Works Better.
+    </h2>
+
+    <p>
+        Tell us about your business, your challenges and
+        what you want to improve. Let's explore the right
+        digital solution for you.
+    </p>
+
+    <div class="button-box">
+        <div class="clapat-button-wrap parallax-wrap hide-ball">
+            <div class="clapat-button parallax-element">
+                <div class="button-border outline rounded">
+                    <a href="<?php echo base_url(); ?>contact"
+                       data-type="page-transition">
+                        <span data-hover="Start a Conversation">
+                            Talk to Bee Technology
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- END ABOUT PAGE CTA -->
+
+
+
                             
                             <!-- Row -->
                             <?php require_once 'contactinfo.php'; ?>

@@ -34,10 +34,12 @@ class Services extends CI_Controller {
 	public function detail($slug) {
         $allowed_views = [
             'web-design',
+            'web-applications',
             'ui-ux-design',
             'graphic-design',
             'mobile-app-development',
             'seo-optimization',
+            'google-business-optimization',
             'data-analytics',
             'social-media-management',
             'content-creation',

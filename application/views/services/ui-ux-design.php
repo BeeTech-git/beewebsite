@@ -1,16 +1,16 @@
 <!DOCTYPE html><html lang="en">
     
 <head>
-    <title>UI/UX Design Services | User-Centered Design in India, Kerala & Dubai</title>
+    <title>UI/UX Design Services | User-Centered Design in Kerala, India & Dubai</title>
     
-    <meta name="description" content="Bee Tech delivers intuitive UI/UX design services that elevate digital experiences across India, Kerala, and Dubai. We focus on usability, aesthetics, and engagement to enhance your app or website's performance.">
+    <meta name="description" content="Bee Technology provides UI/UX design services for websites and web applications. Create intuitive interfaces and user experiences that make digital products easier to use.">
     <meta name="keywords" content="UI UX design Kerala, UX agency India, UI designers Dubai, app UI UX India, web design UX Kerala, user interface design Dubai, best UI company India, Bee Tech UI services">
     <meta name="robots" content="index, follow">
-    <meta name="author" content="Bee Tech">
+    <meta name="author" content="Bee Technology">
     
     <!-- Open Graph -->
-    <meta property="og:title" content="UI/UX Design Services | Bee Tech – India, Kerala & Dubai">
-    <meta property="og:description" content="Looking to improve your app or website experience? Bee Tech provides strategic UI/UX design services that blend creativity with functionality for clients in Dubai, Kerala, and across India.">
+    <meta property="og:title" content="UI/UX Design Services | Bee Technology">
+    <meta property="og:description" content="User-focused UI/UX design for websites and applications, combining intuitive navigation, clear interfaces and thoughtful user journeys.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.beetechnology.in/services/ui-ux-design">
     <meta property="og:image" content="https://www.beetechnology.in/beetech/images/logo.png">
@@ -23,31 +23,23 @@
     <link href="<?php echo base_url(); ?>beetech/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo base_url(); ?>beetech/fonts/poppins.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>beetech/fonts/sixcaps.css">
-    <?php require_once 'float-css.php'; ?>
+    <?php require_once(APPPATH . 'views/float-css.php'); ?>
 
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Service",
-      "serviceType": "UI/UX Design",
+      "name": "UI/UX Design Services",
+      "serviceType": "User Interface and User Experience Design",
       "provider": {
         "@type": "Organization",
-        "name": "Bee Tech",
-        "url": "https://www.beetechnology.in",
-        "logo": "https://www.beetechnology.in/images/logo-white.png"
+        "name": "Bee Technology",
+        "url": "https://www.beetechnology.in"
       },
       "areaServed": [
         {
-          "@type": "Place",
-          "name": "Kottayam"
-        },
-        {
-          "@type": "Place",
-          "name": "Kerala"
-        },
-        {
-          "@type": "Place",
-          "name": "Dubai"
+          "@type": "AdministrativeArea",
+          "name": "Kerala, India"
         },
         {
           "@type": "Country",
@@ -58,7 +50,7 @@
           "name": "United Arab Emirates"
         }
       ],
-      "description": "Bee Tech offers UI/UX design services that focus on user experience, interface design, and digital interaction. Serving businesses in India, Kerala, and Dubai, we design with clarity, usability, and performance in mind."
+      "description": "UI/UX design services for websites and web applications, including user research, information architecture, wireframing, interface design and usability improvements."
     }
     </script>
    
@@ -113,10 +105,12 @@
                                     <h1 class="hero-title caption-timeline primary-font-title"><span>UI/UX DESIGN</span></h1>
                                     <div class="hero-subtitle caption-timeline">
                                     	<span>
-                                            We’re a creative digital studio based in Kottayam, Kerala, specializing in UI/UX design for businesses across <strong>India and Dubai</strong>.  
-                                            <br class="destroy">Merging user-centric research, intuitive interfaces, and engaging visuals, we create experiences that delight users and drive results.  
-                                            <br>Whether you’re a startup or an enterprise, our seamless UI/UX solutions ensure your apps and websites are accessible, memorable, and conversion-focused—across all devices and markets.  
-                                            <br><strong>We don’t just design interfaces. We bee-optimize your user journey.</strong>
+                                            Digital experiences designed around the people who use them.
+                                            <br class="destroy">
+                                            We combine intuitive user journeys, thoughtful layouts and
+                                            clear interfaces to make websites and applications easier to use.
+                                            <br>
+                                            <strong>Better experiences begin with better design.</strong>
                                         </span>
                                     </div>                                   
                                 </div>
@@ -149,9 +143,20 @@
                                 
                                 <div class="pinned-section">
                                     <div class="pinned-element left">
-                                        <h5 class="no-margins">Design That Feels Right, Works Better</h5>
+                                        <h5 class="no-margins">
+                                            UI/UX Design That Puts Users First
+                                        </h5>
+
                                         <p>
-                                            Creating digital products that look good is not enough — they must also feel right to the user. At Bee Tech, our UI/UX process blends aesthetic appeal with usability, ensuring your audience enjoys every click, scroll, and interaction. From wireframing and prototyping to pixel-perfect visual design, we craft experiences that are intuitive, inclusive, and aligned with your brand's purpose. Whether you're building a mobile app, website, or dashboard, we make every interface smart and satisfying.
+                                            A successful digital product should make it easy for people to
+                                            understand what it offers and accomplish what they came to do.
+                                            At Bee Technology, we design user interfaces and experiences for
+                                            websites and web applications by focusing on usability, clarity
+                                            and consistency. From organising information and planning user
+                                            journeys to designing layouts and interactive elements, we consider
+                                            how people navigate and interact with a digital product. Our UI/UX
+                                            design approach helps businesses create more accessible, intuitive
+                                            experiences that support customer needs and business objectives.
                                         </p>
                                     </div>
                                     
@@ -163,7 +168,109 @@
                                 </div>
                                 
                             </div> 
-                            <!--/Row -->      
+                            <!--/Row -->    
+
+                            <!-- OUR WORK -->
+                            <div class="content-row full row_padding_top
+                                        row_padding_bottom row_padding_left
+                                        row_padding_right dark-section"
+                                 data-bgcolor="#0c0c0c">
+
+                                <div class="one_half">
+                                    <h3>User Experience Research and Planning</h3>
+                                    <p>
+                                        Effective design begins with understanding users and their goals.
+                                        We consider your target audience, business requirements and
+                                        intended user journeys before shaping the experience. This helps
+                                        establish a clear direction for the product and identify
+                                        opportunities to make important tasks easier to complete.
+                                    </p>
+                                </div>
+
+                                <div class="one_half last">
+                                    <h3>Wireframing and Information Architecture</h3>
+                                    <p>
+                                        A well-organised interface starts with a logical structure.
+                                        Wireframes help plan page layouts, content hierarchy and the
+                                        placement of essential elements before detailed visual design
+                                        begins. We organise information and navigation so users can
+                                        understand the interface and find what they need more easily.
+                                    </p>
+                                </div>
+
+                                <div class="one_half">
+                                    <h3>Modern User Interface Design</h3>
+                                    <p>
+                                        A consistent interface makes a digital product easier to
+                                        understand and recognise. We bring together typography, colours,
+                                        spacing, icons, buttons and visual hierarchy to create interfaces
+                                        that reflect your brand while keeping information clear and
+                                        interactions easy to follow.
+                                    </p>
+                                </div>
+
+                                <div class="one_half last">
+                                    <h3>Responsive Website and Application Design</h3>
+                                    <p>
+                                        People interact with digital products across mobile phones,
+                                        tablets and desktop screens. We design flexible interfaces that
+                                        adapt to different screen sizes while maintaining readable
+                                        content, usable navigation and accessible interactive elements.
+                                        This creates a more consistent experience across devices.
+                                    </p>
+                                </div>
+
+                                <div class="one_half">
+                                    <h3>Dashboard and Business Application UX</h3>
+                                    <p>
+                                        Business applications often contain complex information and
+                                        multiple workflows. We focus on presenting data clearly,
+                                        organising controls logically and simplifying common tasks.
+                                        From dashboards and forms to reporting screens and management
+                                        interfaces, thoughtful UX design helps users work through
+                                        processes with greater clarity.
+                                    </p>
+                                </div>
+
+                                <div class="one_half last">
+                                    <h3>Usability Improvements and Design Refinement</h3>
+                                    <p>
+                                        User experience can improve through observation, feedback and
+                                        iteration. We review interface structure, navigation, content
+                                        clarity and interaction patterns to identify areas that may
+                                        confuse users or create unnecessary steps. Where suitable,
+                                        usability testing and user feedback can guide refinements
+                                        that make the experience more effective.
+                                    </p>
+                                </div>
+
+                                <div class="clear"></div>
+
+                            </div>
+                            <!-- END OUR WORK -->   
+
+                            <div class="content-row row_padding_bottom row_padding_left row_padding_right text-align-center">
+
+                                <h2 class="primary-font-title">
+                                    Let's Design Better Experiences
+                                </h2>
+
+                                <div class="button-box">
+                                    <div class="clapat-button-wrap parallax-wrap hide-ball">
+                                        <div class="clapat-button parallax-element">
+                                            <div class="button-border outline rounded">
+                                                <a href="<?php echo base_url(); ?>contact"
+                                                   data-type="page-transition">
+                                                    <span data-hover="Start a Conversation">
+                                                        Talk to Bee Technology
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>      
                             
                             <!-- Row -->
                             <?php require_once(APPPATH . 'views/contactinfo.php'); ?>
@@ -179,7 +286,8 @@
                             <div class="page-nav-wrap">
                                 <div class="page-nav-caption content-full-width text-align-center height-title">                                 
                                     <div class="inner">
-                                    	<div class="next-hero-subtitle caption-timeline"><span>Let’s build something great together — contact Bee Tech today to discuss your next website, app, or branding project.</span></div>
+                                    	<div class="next-hero-subtitle caption-timeline"><span>Planning a website or digital product?
+        Let's create an experience your users will appreciate.</span></div>
                                         <a class="page-title next-ajax-link-page" data-type="page-transition" data-centerline="CONTACT US" href="<?php echo base_url(); ?>contact">
                                             <div class="next-hero-title primary-font-title caption-timeline"><span>CONTACT US</span></div>
                                         </a>                                       
@@ -249,6 +357,6 @@
     
     <script src="<?php echo base_url(); ?>beetech/js/scripts.js"></script>
 
-    <?php require_once 'float-butt.php'; ?>
+    <?php require_once(APPPATH . 'views/float-butt.php'); ?>
 
 </body></html>
